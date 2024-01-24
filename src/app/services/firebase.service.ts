@@ -4,7 +4,7 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, up
          sendPasswordResetEmail } from 'firebase/auth'
 import { User } from '../models/user.model';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
-import { getFirestore, setDoc, doc, getDoc, addDoc, collection, query, where, onSnapshot,
+import { getFirestore, setDoc, doc, getDoc, addDoc, collection, query, onSnapshot,
          DocumentData, updateDoc, deleteDoc } from '@angular/fire/firestore'
 import { UtilsService } from './utils.service'; 
 import { getStorage, uploadString, ref, getDownloadURL, deleteObject } from 'firebase/storage';

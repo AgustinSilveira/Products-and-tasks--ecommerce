@@ -63,7 +63,7 @@
           </ion-card>
 
         </ion-col>
-        <ion-row *ngIf="!loading && !tasks.length">
+        <ion-row  id="task-text" *ngIf="!loading && !tasks.length">
           <ion-col class="empty" size="12">
             <ion-icon name="create-outline"></ion-icon>
             <h4>No tienes tareas</h4>
